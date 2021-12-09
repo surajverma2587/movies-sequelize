@@ -1,0 +1,32 @@
+{
+  "name": "movies-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajverma2587/movies-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajverma2587/movies-sequelize/issues"
+  },
+  "homepage": "https://github.com/surajverma2587/movies-sequelize#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
